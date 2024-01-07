@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow: /admin/
+
+Allow: /
+
+Sitemap: https://simandhareducation.com/sitemap.xml

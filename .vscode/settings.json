@@ -1,0 +1,10 @@
+{
+    "task.problemMatchers.neverPrompt": false,
+    "emmet.preferences": {},
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "cSpell.words": [
+        "RAZORPAY"
+    ]
+}

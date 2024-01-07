@@ -1,0 +1,54 @@
+/* buttons */
+.btn {font-weight: 500;font-size: 2rem;padding: 1.8rem 3.2rem;border-radius: 5rem;display: inline-block;transition: ease .5s all;cursor: pointer;background-color: transparent;
+  @include breakpoint(max, 767px){font-size: 2.4rem;}
+  
+  &.btn-arrow {margin-left: 4rem;}
+  .btn-arrow {margin-left: 2rem;}
+  &.maroon-btn {background-color: #760B28;color: #fff;border: solid 1px #760B28;background-image: url('/img/cross_arrow_white.svg');background-repeat: no-repeat;background-position: center right 3rem;padding-right: 7rem;background-size: 2rem;
+    &.maroon-btn-arrow {background-image: url('/img/cross_arrow_white.svg');background-repeat: no-repeat;background-position: center right 3rem;padding-right: 7rem;background-size: 2rem;
+        @include breakpoint(max, 767px){padding-right: 8rem}
+    }
+    &:hover{background-color: #fff;color: #760B28;background-image: url('/img/cross_arrow.svg');
+      &.maroon-btn-arrow {background-image: url('/img/cross_arrow.svg');}
+    }
+  }
+
+  &.white-btn {background-color: #fff;color: #760B28;border: 1px solid #fff;
+      &.white-btn-arrow {background-image: url('/img/cross_arrow.svg');background-repeat: no-repeat;background-position: center right 3rem;padding-right: 7rem;background-size: 2rem;
+          @include breakpoint(max, 767px){padding-right: 8rem}
+      }
+      &:hover{background-color: #760B28;color: #fff;background-image: url('/img/cross_arrow_white.svg');
+        &.white-btn-arrow {background-image: url('/img/cross_arrow_white.svg');}
+      }
+  }
+  &.white-border-btn {border: solid 1px #fff;color: #fff;
+      &.white-border-btn-arrow {background-image: url('/img/cross_arrow_white.svg');background-repeat: no-repeat;background-position: center right 3rem;padding-right: 8rem;background-size: 2rem;
+           @include breakpoint(max, 767px){padding-right: 8rem}
+      }
+      &:hover{background-color: #760B28;border-color: #760B28 !important;color: #fff;background-image: url('/img/cross_arrow_white.svg');
+        &.wwhite-border-btn-arrow {background-image: url('/img/cross_arrow.svg');}
+      }
+  }
+
+  &.maroon-border-btn {border: solid 1px #760B28;color: #760B28;
+      &.maroon-border-btn-arrow {background-image: url('/img/cross_arrow.svg');background-repeat: no-repeat;background-position: center right 3rem;padding-right: 8rem;background-size: 2rem;
+          @include breakpoint(max, 767px){padding-right: 8rem}
+      }
+      &:hover{background-color: #760B28;color: #fff;
+        &.maroon-border-btn-arrow{background-image: url('/img/cross_arrow_white.svg');}
+      }
+  }
+
+  &.black-border{border: solid 1px #000;color: #000;
+    &.black-border-btn-arrow {background-image: url('/img/black_up_arrow.png');background-repeat: no-repeat;background-position: center right 3rem;padding-right: 8rem;background-size: 2rem;
+      @include breakpoint(max, 767px){padding-right: 8rem}
+      }
+      &:hover{border-color: $primary-color;color: $primary-color;
+        &.black-border-btn-arrow{background-image: url('/img/cross_arrow.svg');}
+      }
+    
+  }
+
+  &.enq-btn {background-color: transparent;color: #fff;border: none;
+  }
+}

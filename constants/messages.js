@@ -1,0 +1,1 @@
+const defaultSameCourseMessage = 'You can add only one CPA Course bundle - Becker Unlimited or Becker Limited.';

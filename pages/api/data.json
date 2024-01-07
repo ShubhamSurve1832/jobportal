@@ -1,0 +1,45 @@
+{
+    "achivers":[
+        {
+            "id": 1,
+            "img": "/img/achiever01.jpg",
+            "desc": "I am thrilled to share that I have cleared all 4 parts of the US CPA examination. It has been a challenging journey and a lot of ups and downs from deciding to quit my job to studying full time and.." ,
+            "achName":"Ashwini Nathan",
+            "achPos":"US CPA"
+        }
+    ],
+    {
+        "_id": 5903,
+        "sequence": 1,
+        "alphaLearnCourse": true,
+        "availableFrom": "10-05-2022",
+        "availableTill": null,
+        "avgRating": 0,
+        "courseCode": "CPA",
+        "courseId": 5903,
+        "courseType": "Multiple Subject",
+        "currency": [
+          {
+            "currencyCode": "INR",
+            "price": 70800,
+            "isDefault": true
+          }
+        ],
+        "description": "<p style=\"line-height: 100%; margin-bottom: 0cm;\">Welcome to Becker Unlimited Access, brought to you by Simandhar Education!</p><br>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\">Simandhar Education proudly presents Becker Unlimited Access, an exceptional course designed to empower learners like you with unparalleled opportunities for professional growth. With Becker Unlimited Access, you will receive access to Simandhar Education's Learning Management System (LMS) for a duration of 24 months, along with lifetime access to Becker LMS.</p><br>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\">Becker Unlimited Access provides you with a comprehensive and flexible learning experience, combining Simandhar Education's expertise with the renowned educational resources of Becker. By enrolling in this course, you will gain exclusive access to our advanced LMS, as well as a lifetime membership to Becker LMS, ensuring that you have access to the tools and materials you need throughout your career.</p><br><br>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\"><strong>Key Features of Becker Unlimited Access:</strong></p><br>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\">1. <strong>Simandhar Education's LMS:</strong> Immerse yourself in a cutting-edge learning platform designed by Simandhar Education. Our LMS offers a user-friendly interface, allowing you to navigate through a wide range of study materials, interactive modules, practice exams, and more. Take advantage of features such as progress tracking, personalised study plans, and performance analytics to optimise your learning journey.</p><br>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\">2.<strong> Unlimited to Becker LMS</strong>: Gain exclusive access to Becker's exceptional educational resources for unlimited time. Becker LMS provides you with an extensive library of study materials, including textbooks, lectures, practice questions, and supplementary resources. With unlimited access, you can revisit and reinforce your knowledge at any point in your career, ensuring that you stay up-to-date with the latest industry developments.</p><br>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\">3. <strong>Unlimited Simandhar Education's LMS</strong>: Benefit of unlimited access to Simandhar Education's LMS. This generous duration allows you to dive deep into the course content, review materials, and reinforce your understanding at your own pace. Enjoy the flexibility to balance your personal and professional commitments while making the most of your learning experience.</p><br>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\">&nbsp;</p>\n<p style=\"orphans: 2; widows: 2; margin-bottom: 0cm;\" align=\"left\">Experience unlimited possibilities with Becker Unlimited Access, exclusively provided by Simandhar Education. Expand your horizons, enhance your skills, and unlock new opportunities in your chosen field. Enroll today and embark on a lifelong journey of professional development!</p>",
+        "durationInDays": 730,
+        "eligibleForSale": true,
+        "price": {
+          "totalPrice": 131750,
+          "discountPrice": 155000,
+          "basePrice": 0,
+          "tax": {
+            "cgst": 0,
+            "sgst": 0
+          }
+        },
+        "status": true,
+        "thumbnail": "https://s3.ap-south-1.amazonaws.com/content.alphalearn.com/VjBKVWljMDFKTzQ9/UGsxOFhjTlliWnM9/thumbnail.png",
+        "title": "Certified Public Accountant\n(Becker Unlimited Access | 24 months) ",
+        "trainerName": "Simandhar Education"
+      }
+}

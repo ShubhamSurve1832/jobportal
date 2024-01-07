@@ -1,0 +1,1 @@
+export const CART_KEY_NAME = "cartState"

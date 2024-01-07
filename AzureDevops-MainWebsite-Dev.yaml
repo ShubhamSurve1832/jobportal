@@ -1,0 +1,34 @@
+trigger:
+- develop
+
+pool: 
+  name: pool-simandharedu-dev
+  vmImage: 'ubuntu-20.04'
+ 
+jobs:
+- job: ci
+  steps:
+  - checkout: self
+  
+  - script: |
+      # Cleanup step to remove the 'old_folder'
+      sudo rm -rf /home/ubuntu/MainWebsite/*
+    displayName: 'Cleanup Old Folder'
+
+  - script: |
+      # Create the destination directory if it doesn't exist
+      sudo mkdir -p /home/ubuntu/MainWebsite/
+
+      # Copy the new contents to /home/ubuntu/MainWebsite/
+      sudo cp -r * /home/ubuntu/MainWebsite/
+    displayName: 'Copy New Files'
+
+  - script: |
+      sudo tar -czf /home/ubuntu/MainWebsite/main.tar.gz -C /home/ubuntu/ main/
+    displayName: 'Compress artifact directory'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      artifactName: 'main_artifact'
+      pathToPublish: /home/ubuntu/MainWebsite/main.tar.gz
+    displayName: 'Publish compressed artifact'
