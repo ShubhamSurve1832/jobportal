@@ -2,7 +2,6 @@ import React from 'react'
 import Head from "next/head";
 import Image from 'next/image';
 import Jobfooter from "./JobFooter";
-import Jobheader from "./JobHeader";
 import { CgProfile } from "react-icons/cg";
 import { AiFillCamera } from "react-icons/ai";
 import AuthorizeCandidate from '../../job/AuthorizeCandidate/AuthorizeCan';
